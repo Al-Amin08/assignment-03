@@ -21,12 +21,15 @@
                 clifford: '#da373d',
                 "arrow-bg":"#ABEF5F",
                 "h-1":"#212121",
+                "h-2":"#1C1C1C",
                 "p-color":"#494949",
+                "p-color-2":"#737373",
                 "light-arrow":"#ABEF5F80",
                 "pink":"#E7C1D3",
                 "yellow":"#EFDA6E",
                 "green":"#A4DAC3",
                 "blue":"#77AAEA",
+
                 
               }
             }
@@ -41,9 +44,7 @@
         .manrope{
             font-family: "Manrope", sans-serif;
         }
-        .bg{
-          /* background: rgb(30, 30, 30); */
-        }
+      
     </style>
 
 </head>
@@ -145,15 +146,15 @@
                   <div class="flex px-8 py-6 items-center bg-base-100 my-6 rounded-xl">
                     <img src="B10-Assignment-03-main/B10-Assignment-03-main/assets/commercial.png" alt="">
                     <div class="ml-4">
-                      <h3 class="font-extrabold text-xl">Commercial</h3>
-                      <p class="font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                      <h3 class="font-extrabold text-xl text-p-color">Commercial</h3>
+                      <p class="font-medium text-p-color-2">The barn house captivates with its blend of rustic charm and modern.</p>
                     </div>
                   </div>
                   <div class="flex px-8 py-6 items-center bg-base-100 rounded-xl">
                     <img src="B10-Assignment-03-main/B10-Assignment-03-main/assets/residential.png" alt="">
                     <div class=" ml-4">
-                      <h3 class="font-extrabold text-xl">Residential</h3>
-                      <p class="font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                      <h3 class="font-extrabold text-xl text-p-color">Residential</h3>
+                      <p class="font-medium text-p-color-2">The barn house captivates with its blend of rustic charm and modern.</p>
                     </div>
                   </div>
                 </div>
@@ -180,29 +181,29 @@
               <div class="grid lg:grid-cols-4 grid-cols-1 gap-6 md:px-5 px-8 border">
                   <div class="h-60 text-left bg-pink px-5 py-5 rounded-2xl">
                     <img src="B10-Assignment-03-main/B10-Assignment-03-main/assets/vision.png" alt="">
-                    <h3 class="text-xl font-extrabold my-2">Concept</h3>
-                    <p class="font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                    <h3 class="text-xl font-extrabold my-2 text-h-2">Concept</h3>
+                    <p class="font-medium text-p-color">The barn house captivates with its blend of rustic charm and modern.</p>
                  </div>
 
                   <div class="h-60 text-left bg-yellow px-5 py-5 rounded-2xl">
                     <img src="B10-Assignment-03-main/B10-Assignment-03-main/assets/flow-chart.png" alt="">
-                    <h3 class="text-xl font-extrabold my-2">Design Process</h3>
-                    <p class="font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                    <h3 class="text-xl font-extrabold my-2 text-h-2">Design Process</h3>
+                    <p class="font-medium text-p-color">The barn house captivates with its blend of rustic charm and modern.</p>
                   
 
                   </div>
                   
                   <div class="h-60 text-left bg-green px-5 py-5 rounded-2xl">
                     <img src="B10-Assignment-03-main/B10-Assignment-03-main/assets/concept.png" alt="">
-                    <h3 class="text-xl font-extrabold my-2">Supervision</h3>
-                    <p class="font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                    <h3 class="text-xl font-extrabold my-2 text-h-2">Supervision</h3>
+                    <p class="font-medium text-p-color">The barn house captivates with its blend of rustic charm and modern.</p>
                   
 
                   </div>
                   <div class="h-60 text-left bg-blue px-5 py-5 rounded-2xl">
                     <img src="B10-Assignment-03-main/B10-Assignment-03-main/assets/budget-planning.png" alt="">
-                    <h3 class="text-xl font-extrabold my-2">Budget Planning</h3>
-                    <p class="font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                    <h3 class="text-xl font-extrabold my-2 text-h-2">Budget Planning</h3>
+                    <p class="font-medium text-p-color">The barn house captivates with its blend of rustic charm and modern.</p>
                   
 
                   </div>
@@ -228,8 +229,73 @@
           
             </section>
 
+
+
+            <!-- FAQ -->
+            <section class="my-24">
+              <h3 class="text-5xl font-bold text-center mb-12">Frequently Asked <span class="text-bike-primary">Questions</span></h3>
+
+              <div class="">
+                <div class="hero">
+                  <div class="hero-content flex-col lg:flex-row">
+                    <img
+                      src="B10-Assignment-03-main/B10-Assignment-03-main/assets/faq.png"
+                      class="max-w-sm rounded-lg  bg-stone-100" />
+                      <!-- FAQ part -->
+                    <div class="space-y-5">
+                      <!-- 1 -->
+                      <div class="collapse collapse-arrow border">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl font-extrabold text-p-color">What services do you offer?</div>
+                        <div class="collapse-content">
+                          <p class="font-medium text-p-color-2">We offer a comprehensive range of services, including architectural design, interior design, landscape design, and project management. Our goal is to create spaces that are both beautiful and functional, tailored to your unique needs and vision. </p>
+                        </div>
+                      </div>
+                      <!-- 2 -->
+                      <div class="collapse collapse-arrow border">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-extrabold text-p-color">Do you have experience with sustainable design?</div>
+                        <div class="collapse-content">
+                          <p class="font-medium text-p-color-2">Yes, we specialize in sustainable design practices. We incorporate eco-friendly materials, energy-efficient systems, and innovative solutions to reduce environmental impact while enhancing the comfort and functionality of your space.</p>
+                        </div>
+                      </div>
+                      <!-- 3 -->
+                      <div class="collapse collapse-arrow border">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-extrabold text-p-color">How do you ensure client satisfaction?</div>
+                        <div class="collapse-content">
+                          <p class="font-medium text-p-color-2">We prioritize open communication and collaboration throughout the design process. We listen to your needs, provide regular updates, and make adjustments as needed to ensure the final design meets your expectations. Our dedicated project managers oversee every stage to ensure a smooth and successful project.</p>
+                        </div>
+                      </div>
+                      <!-- 4 -->
+                      <div class="collapse collapse-arrow border">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-extrabold text-p-color">Can you provide examples of your previous work?</div>
+                        <div class="collapse-content">
+                          <p class="font-medium text-p-color-2">Absolutely! We have a portfolio of completed projects that showcase our design expertise and attention to detail. From residential homes to commercial spaces, our work reflects our commitment to quality and creativity.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <!-- Let's Discuss Next Project -->
-             <section class="bg-[url('B10-Assignment-03-main/B10-Assignment-03-main/assets/bg.jpg')]">
+            <section class="bg-[url('B10-Assignment-03-main/B10-Assignment-03-main/assets/bg.jpg')]">
                 <div class="container mx-auto py-24">
                   <div class="text-center ">
                     <div class="px-10 pb-10 pt-2 ">
